@@ -5,7 +5,7 @@ function WhereiBelong(array,num) {
     // using the sort method we pass a compare function that will sort the array  
     for (let i = 0; i < sortedArray.length; i++) {// basic for loop
             if (sortedArray[i] >= num) { // if the element in the array is greater or equal to              
-                return i; // return i
+                return i;
             }
     }
     return sortedArray.length;
